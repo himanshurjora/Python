@@ -1,4 +1,6 @@
-def remove_chars(str, num):
-    return str[:num-1]
-
-print(remove_chars("aligarh", 3))
+str="computer"
+for i in range(len(str)):
+    print("element at index ",i,"->",str[i])
+for i in range(len(str)):
+    if i%2==0:
+        print("element at even index ",i,"->",str[i])    
