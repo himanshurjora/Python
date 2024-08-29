@@ -1,6 +1,6 @@
-text = input("Enter the string: ")
-
-length = len(text)
-num = 0
-for i in range(0, length, 2):
-    print(text[i], end="")
+str=input("enter ")
+for i in range(len(str)):
+    print("element at index ",i,"->",str[i])
+for i in range(len(str)):
+    if i%2==0:
+        print("element at even index ",i,"->",str[i])    
