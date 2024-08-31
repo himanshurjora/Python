@@ -6,4 +6,4 @@ def func(ls):
         return False
 
 ls = [1,2,3,4,5,6,1]
-print("First and last elements of are same? ",func(ls))
+print("First and last elements of are same ? ",func(ls))
